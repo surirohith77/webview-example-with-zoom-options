@@ -1,0 +1,21 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nointer"
+        android:contentDescription="No Internet"
+        android:onClick="checkin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No InterNet Connection"
+        android:fontFamily="sans-serif"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:onClick="checkin"/>
+
+</LinearLayout>
